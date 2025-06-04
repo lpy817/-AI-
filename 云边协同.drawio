@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.1.3">
+  <diagram name="第 1 页" id="EY85wSadaTl8VjO8HmhX">
+    <mxGraphModel dx="1750" dy="1147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-F82yL7qYHOa4hSba8EC-1" value="云" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="-80" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-F82yL7qYHOa4hSba8EC-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="70" width="660" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="-F82yL7qYHOa4hSba8EC-3" value="边缘计算节点(边)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="102.5" width="120" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-F82yL7qYHOa4hSba8EC-23" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.213;entryY=0.827;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="19" as="sourcePoint" />
+            <mxPoint x="264.8799999999999" y="-13.840000000000032" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-F82yL7qYHOa4hSba8EC-8" value="数据上传" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="20" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-F82yL7qYHOa4hSba8EC-10" value="模型下发 微服务下发" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="20" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-F82yL7qYHOa4hSba8EC-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="520" width="390" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-F82yL7qYHOa4hSba8EC-12" value="终端设备(端)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="550" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-F82yL7qYHOa4hSba8EC-13" value="数据采集(交通流量、道路事件、气象等多源数据)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="550" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="-F82yL7qYHOa4hSba8EC-14" value="执行决策(交通控制、信息发布等)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="543.75" width="110" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-F82yL7qYHOa4hSba8EC-15" value="数据初步清洗" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="410" width="105" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-F82yL7qYHOa4hSba8EC-16" value="实时异常检测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="350" width="100" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-F82yL7qYHOa4hSba8EC-17" value="特征提取&lt;div&gt;(关键信息提取)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="110" height="46.25" as="geometry" />
+        </mxCell>
+        <mxCell id="-F82yL7qYHOa4hSba8EC-18" value="数据分级&lt;div&gt;处理&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="282.5" y="200" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-F82yL7qYHOa4hSba8EC-20" value="实时性强的数据&lt;div&gt;(如异常数据)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="102.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-F82yL7qYHOa4hSba8EC-22" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="-F82yL7qYHOa4hSba8EC-21" target="-F82yL7qYHOa4hSba8EC-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-F82yL7qYHOa4hSba8EC-21" value="复杂的大规模数据&lt;div&gt;(如历史流量)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="102.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-F82yL7qYHOa4hSba8EC-24" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.8;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.41;entryY=-0.045;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-F82yL7qYHOa4hSba8EC-1" target="-F82yL7qYHOa4hSba8EC-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="80" as="sourcePoint" />
+            <mxPoint x="410" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-F82yL7qYHOa4hSba8EC-27" value="数据分级处理" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="195" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
